@@ -1,0 +1,102 @@
+body {
+    background: url(img/bg_image.jpg) #93cade no-repeat top left;
+    color: #474747;
+}
+
+#page {
+    width:90%;
+    margin: 20px auto;
+    background:#fff;
+    max-width: 62.5em;
+    border:1px solid #336a7e;
+}
+
+.logo {
+    margin-top:10px;
+    margin-bottom:10px;
+}
+
+#masthead {
+    margin:10px 0;
+    text-align: center;
+}
+
+#masthead h3 {
+    color:#1e586e;
+    margin-bottom: 10px;
+}
+
+#main-nav {
+
+}
+
+#main-nav ul {
+    list-style-type: none;
+    margin-bottom: 10px;
+}
+
+#main-nav li {
+    list-style-type: none;
+    display: block;
+    width: 100%;
+}
+
+@media only screen and (min-width: 768px) {
+    #masthead {
+        text-align: left;
+    }
+
+    #masthead h3 {
+        margin-bottom: 0;
+    }
+    
+    #main-nav ul {
+        margin-bottom: 0;
+    }
+    
+    #main-nav li {
+        width:25%;
+        float: left;
+    }
+
+    #main-nav a {
+        border-left: 2px solid #fff;
+        border-bottom: none;
+    }
+}
+
+#main-nav a {
+    display: block;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 9px 0;
+    border-bottom: 2px solid #fff;
+    text-align: center;
+}
+
+#main-nav a:link, #main-nav a:visited {
+    background-color: #1e586e;
+    color:#fff;
+}
+
+#main-nav a:hover, #main-nav a:active {
+    background-color: #93cade;
+    color:#fff;
+}
+
+h2 {
+    color:#639aae;
+    border-bottom: 1px solid #ccc;
+}
+
+.orbit-container {
+    background-color: #fff;
+}
+
+.orbit-container .orbit-prev, .orbit-container .orbit-next {
+    background-color: transparent;
+}
+
+footer {
+    clear:both;
+}
